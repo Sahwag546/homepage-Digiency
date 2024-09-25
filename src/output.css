@@ -642,6 +642,18 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-\[1\] {
+  margin-top: 1;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .flex {
   display: flex;
 }
@@ -659,12 +671,20 @@ video {
   width: 80%;
 }
 
-.w-6\/12 {
-  width: 50%;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-2\/12 {
+  width: 16.666667%;
+}
+
+.w-3\/12 {
+  width: 25%;
+}
+
+.w-1\/12 {
+  width: 8.333333%;
 }
 
 .max-w-\[325px\] {
@@ -790,12 +810,59 @@ video {
   padding-bottom: 10px;
 }
 
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.px-\[0px\] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.px-\[45px\] {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.px-\[42px\] {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
 
+.pb-\[119px\] {
+  padding-bottom: 119px;
+}
+
 .pb-\[120px\] {
   padding-bottom: 120px;
+}
+
+.pb-\[15px\] {
+  padding-bottom: 15px;
+}
+
+.pl-\[15px\] {
+  padding-left: 15px;
 }
 
 .pl-\[25px\] {
@@ -822,6 +889,10 @@ video {
   padding-top: 120px;
 }
 
+.pt-\[129px\] {
+  padding-top: 129px;
+}
+
 .pt-\[15px\] {
   padding-top: 15px;
 }
@@ -834,20 +905,8 @@ video {
   padding-top: 30px;
 }
 
-.pl-\[15px\] {
-  padding-left: 15px;
-}
-
-.pb-\[15\] {
-  padding-bottom: 15;
-}
-
-.pb-\[15px\] {
-  padding-bottom: 15px;
-}
-
-.pt-\[129px\] {
-  padding-top: 129px;
+.pt-\[15\] {
+  padding-top: 15;
 }
 
 .text-\[30px\] {
@@ -981,19 +1040,39 @@ video {
   left: 20px;
 }
 
+.hover\:rounded-\[10px\]:hover {
+  border-radius: 10px;
+}
+
+.hover\:bg-orange:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 83 0 / var(--tw-bg-opacity));
+}
+
+.hover\:px-\[50px\]:hover {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hover\:py-\[15px\]:hover {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .hover\:text-orange:hover {
   --tw-text-opacity: 1;
   color: rgb(255 83 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1536px) {
   .max-2xl\:mx-\[15px\] {
     margin-left: 15px;
     margin-right: 15px;
-  }
-
-  .max-2xl\:mb-\[0px\] {
-    margin-bottom: 0px;
   }
 
   .max-2xl\:mb-\[30px\] {
@@ -1004,24 +1083,12 @@ video {
     padding-bottom: 30px;
   }
 
-  .max-2xl\:pt-\[0px\] {
-    padding-top: 0px;
+  .max-2xl\:pt-\[30px\] {
+    padding-top: 30px;
   }
 
   .max-2xl\:pt-\[50px\] {
     padding-top: 50px;
-  }
-
-  .max-2xl\:pt-\[\] {
-    padding-top: ;
-  }
-
-  .max-2xl\:pt-\[20px\] {
-    padding-top: 20px;
-  }
-
-  .max-2xl\:pt-\[30px\] {
-    padding-top: 30px;
   }
 }
 
@@ -1062,20 +1129,6 @@ video {
 
   .max-xl\:pt-\[50px\] {
     padding-top: 50px;
-  }
-
-  .max-xl\:pt-\[20px\] {
-    padding-top: 20px;
-  }
-}
-
-@media not all and (min-width: 1024px) {
-  .max-lg\:w-6\/12 {
-    width: 50%;
-  }
-
-  .max-lg\:pt-\[20px\] {
-    padding-top: 20px;
   }
 }
 
