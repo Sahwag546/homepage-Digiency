@@ -634,6 +634,10 @@ video {
   margin-bottom: 168px;
 }
 
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -642,16 +646,8 @@ video {
   margin-top: 1.75rem;
 }
 
-.mt-\[1\] {
-  margin-top: 1;
-}
-
 .mt-\[15px\] {
   margin-top: 15px;
-}
-
-.mb-\[30px\] {
-  margin-bottom: 30px;
 }
 
 .flex {
@@ -675,16 +671,8 @@ video {
   width: 100%;
 }
 
-.w-2\/12 {
-  width: 16.666667%;
-}
-
-.w-3\/12 {
-  width: 25%;
-}
-
-.w-1\/12 {
-  width: 8.333333%;
+.w-4\/12 {
+  width: 33.333333%;
 }
 
 .max-w-\[325px\] {
@@ -795,6 +783,11 @@ video {
   padding-right: 22px;
 }
 
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -813,36 +806,6 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[50px\] {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.px-\[0px\] {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.px-\[40px\] {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.px-\[45px\] {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
-.px-\[42px\] {
-  padding-left: 42px;
-  padding-right: 42px;
 }
 
 .pb-5 {
@@ -903,10 +866,6 @@ video {
 
 .pt-\[30px\] {
   padding-top: 30px;
-}
-
-.pt-\[15\] {
-  padding-top: 15;
 }
 
 .text-\[30px\] {
@@ -1049,16 +1008,6 @@ video {
   background-color: rgb(255 83 0 / var(--tw-bg-opacity));
 }
 
-.hover\:px-\[50px\]:hover {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.hover\:py-\[15px\]:hover {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .hover\:text-orange:hover {
   --tw-text-opacity: 1;
   color: rgb(255 83 0 / var(--tw-text-opacity));
@@ -1089,6 +1038,10 @@ video {
 
   .max-2xl\:pt-\[50px\] {
     padding-top: 50px;
+  }
+
+  .max-2xl\:pb-\[\] {
+    padding-bottom: ;
   }
 }
 
@@ -1133,6 +1086,18 @@ video {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:flex {
+    display: flex;
+  }
+
+  .max-sm\:w-full {
+    width: 100%;
+  }
+
+  .max-sm\:items-center {
+    align-items: center;
+  }
+
   .max-sm\:text-doubleXl {
     font-size: 39.6px;
   }
