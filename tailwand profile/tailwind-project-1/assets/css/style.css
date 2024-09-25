@@ -1,0 +1,7 @@
+.fill:hover svg path {
+    fill: white;
+}
+.box:hover .circle{
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    color: white;
+}
