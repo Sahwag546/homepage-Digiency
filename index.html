@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- icon-link -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <section
+        class=" min-h-screen items-center justify-center bg-lightOrange relative">
+        <div class="container  w-4/5 mx-auto ">
+            <nav class="w-full flex items-center justify-between py-3">
+                <div class="text-orange text-doubleXl font-doubleXl">
+            Digi<span class="text-black">ency</span>
+                </div>
+                <ul id="mobile_navbar"
+                    class="flex gap-7 items-center xl:relative fixed max-xl:w-full max-xl:h-full max-xl:bg-orange z-10 max-xl:translate-x-full left-0 top-0 max-xl:flex-col max-xl:justify-center max-xl:items-center transition ease-out duration-250 max-xl:min-h-screen ">
+                    <li><a href="#" class="font-lg text-lg hover:text-orange">Home</a>
+                    </li>
+                    <li><a href="#"
+                            class="font-lg text-lg hover:text-orange">About Us</a></li>
+                    <li><a href="#" class="font-lg text-lg hover:text-orange">Services</a></li>
+                    <li><a href="#"
+                            class="font-lg text-lg hover:text-orange">Portfolio</a>
+                    </li>
+                    <li class="font-lg text-lg hover:text-orange"><a href="#">Blog</a></li>
+                    <li class="font-lg text-lg hover:text-orange"><a href="#">Contact Us</a></li>
+                    <li><button
+                            class="px-[22px] py-[10px] ml-3 rounded-[5px] font-lg text-lg border-2 border-lightBlack transition-all duration-300 ">
+                            Let’s Talk</button></li>
+                </ul>
+                <div class="relative z-20 flex gap-x-4 xl:hidden">
+                    <div class="relative size-8 rounded-[100px]" id="toggle_button">
+                        <div
+                            class="absolute h-full w-full transition-all duration-300 show_nav font-bold text-[30px] ">
+                            <ion-icon name="menu-outline"></ion-icon>
+                        </div>
+                        <div
+                            class="absolute h-full w-full font-bold text-[30px] transition-all duration-300 close_nav opacity-0">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            </div>
+            <div class="container  w-4/5 mx-auto flex items-center justify-center">
+            <div class="flex flex-wrap items-center justify-center">
+                <div class=" w-full lg:w-6/12">
+                    <div class=" text-threeXl font-doubleXl max-w-[602px] pt-[208px] max-xl:pt-[50px] max-sm:text-doubleXl">
+                    Choose What Matters <br>To Your Business & Your Customers.
+                    </div>
+                    <p class="font-md text-md text-grey max-w-[586px]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    in digni ssim euismod purus donec mus vulputate habitant iaculis. Com
+                    odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.
+                    </p>
+                    <button class="py-[10px] px-[22px] bg-orange rounded-[5px] text-white font-lg text-lg mt-7 mb-[168px] max-2xl:mb-[0px]"><a href="#">Get Start Now</a></button>
+                </div>
+                <div class=" w-full lg:w-6/12">
+                    <div class="monkey-img pt-[105px] max-2xl:pt-[50px] mb-[149px] max-2xl:mb-[30px]">
+                        <img src="/src/image/study girl img.png" alt="girlPic">
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <script>
+        const nav = document.getElementById("mobile_navbar")
+        const toggleButton = document.getElementById("toggle_button")
+        const toggleButtonShowNav = document.querySelector("#toggle_button .show_nav")
+        const toggleButtonCloseNav = document.querySelector("#toggle_button .close_nav")
+        toggleButton.addEventListener("click",
+            function () {
+                nav.classList.toggle("max-xl:translate-x-full")
+                toggleButtonShowNav.classList.toggle("opacity-0")
+                toggleButtonCloseNav.classList.toggle("opacity-0")
+                console.log("nav")
+            }
+        )
+    </script>
+</body>
+
+</html>
