@@ -1,87 +1,259 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/input.css" />
     <!-- icon-link -->
-    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-</head>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
 
-<body>
+  <body>
+                           <!-- section-1 -->
+
     <section
-        class=" min-h-screen items-center justify-center bg-lightOrange relative">
-        <div class="container  w-4/5 mx-auto ">
-            <nav class="w-full flex items-center justify-between py-3">
-                <div class="text-orange text-doubleXl font-doubleXl">
+      class=" items-center justify-center bg-lightOrange relative poppins"
+    >
+      <div class="container w-4/5 mx-auto">
+        <nav class="w-full flex items-center justify-between py-3">
+          <div class="text-orange text-doubleXl font-doubleXl">
             Digi<span class="text-black">ency</span>
-                </div>
-                <ul id="mobile_navbar"
-                    class="flex gap-7 items-center xl:relative fixed max-xl:w-full max-xl:h-full max-xl:bg-orange z-10 max-xl:translate-x-full left-0 top-0 max-xl:flex-col max-xl:justify-center max-xl:items-center transition ease-out duration-250 max-xl:min-h-screen ">
-                    <li><a href="#" class="font-lg text-lg hover:text-orange">Home</a>
-                    </li>
-                    <li><a href="#"
-                            class="font-lg text-lg hover:text-orange">About Us</a></li>
-                    <li><a href="#" class="font-lg text-lg hover:text-orange">Services</a></li>
-                    <li><a href="#"
-                            class="font-lg text-lg hover:text-orange">Portfolio</a>
-                    </li>
-                    <li class="font-lg text-lg hover:text-orange"><a href="#">Blog</a></li>
-                    <li class="font-lg text-lg hover:text-orange"><a href="#">Contact Us</a></li>
-                    <li><button
-                            class="px-[22px] py-[10px] ml-3 rounded-[5px] font-lg text-lg border-2 border-lightBlack transition-all duration-300 ">
-                            Let’s Talk</button></li>
-                </ul>
-                <div class="relative z-20 flex gap-x-4 xl:hidden">
-                    <div class="relative size-8 rounded-[100px]" id="toggle_button">
-                        <div
-                            class="absolute h-full w-full transition-all duration-300 show_nav font-bold text-[30px] ">
-                            <ion-icon name="menu-outline"></ion-icon>
-                        </div>
-                        <div
-                            class="absolute h-full w-full font-bold text-[30px] transition-all duration-300 close_nav opacity-0">
-                            <ion-icon name="close-outline"></ion-icon>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+          </div>
+          <ul
+            id="mobile_navbar"
+            class="flex gap-7 items-center xl:relative fixed max-xl:w-full max-xl:h-full max-xl:bg-orange z-10 max-xl:translate-x-full left-0 top-0 max-xl:flex-col max-xl:justify-center max-xl:items-center transition ease-out duration-250 max-xl:min-h-screen"
+          >
+            <li>
+              <a href="#" class="font-lg text-lg hover:text-orange">Home</a>
+            </li>
+            <li>
+              <a href="#" class="font-lg text-lg hover:text-orange">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="font-lg text-lg hover:text-orange">Services</a>
+            </li>
+            <li>
+              <a href="#" class="font-lg text-lg hover:text-orange"
+                >Portfolio</a
+              >
+            </li>
+            <li class="font-lg text-lg hover:text-orange">
+              <a href="#">Blog</a>
+            </li>
+            <li class="font-lg text-lg hover:text-orange">
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <button
+                class="px-[22px] py-[10px] ml-3 rounded-[5px] font-lg text-lg border-2 border-lightBlack transition-all duration-300"
+              >
+                Let’s Talk
+              </button>
+            </li>
+          </ul>
+          <div class="relative z-20 flex gap-x-4 xl:hidden">
+            <div class="relative size-8 rounded-[100px]" id="toggle_button">
+              <div
+                class="absolute h-full w-full transition-all duration-300 show_nav font-bold text-[30px]"
+              >
+                <ion-icon name="menu-outline"></ion-icon>
+              </div>
+              <div
+                class="absolute h-full w-full font-bold text-[30px] transition-all duration-300 close_nav opacity-0"
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </div>
             </div>
-            <div class="container  w-4/5 mx-auto flex items-center justify-center">
-            <div class="flex flex-wrap items-center justify-center">
-                <div class=" w-full lg:w-6/12">
-                    <div class=" text-threeXl font-doubleXl max-w-[602px] pt-[208px] max-xl:pt-[50px] max-sm:text-doubleXl">
-                    Choose What Matters <br>To Your Business & Your Customers.
-                    </div>
-                    <p class="font-md text-md text-grey max-w-[586px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                    in digni ssim euismod purus donec mus vulputate habitant iaculis. Com
-                    odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.
-                    </p>
-                    <button class="py-[10px] px-[22px] bg-orange rounded-[5px] text-white font-lg text-lg mt-7 mb-[168px] max-2xl:mb-[0px]"><a href="#">Get Start Now</a></button>
-                </div>
-                <div class=" w-full lg:w-6/12">
-                    <div class="monkey-img pt-[105px] max-2xl:pt-[50px] mb-[149px] max-2xl:mb-[30px]">
-                        <img src="/src/image/study girl img.png" alt="girlPic">
-                    </div>
-                </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container w-4/5 mx-auto flex items-center justify-center">
+        <div class="flex flex-wrap items-center justify-center">
+          <div class="w-full lg:w-6/12">
+            <div
+              class="text-threeXl font-doubleXl max-w-[602px] pt-[208px] max-xl:pt-[50px] max-sm:text-doubleXl"
+            >
+              Choose What Matters <br />To Your Business & Your Customers.
             </div>
+            <p class="font-md text-md text-grey max-w-[586px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              in digni ssim euismod purus donec mus vulputate habitant iaculis.
+              Com odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.
+            </p>
+            <button
+              class="py-[10px] px-[22px] bg-orange rounded-[5px] text-white font-lg text-lg mt-7 mb-[168px] max-2xl:mb-[0px]"
+            >
+              <a href="#">Get Start Now</a>
+            </button>
+          </div>
+          <div class="w-full lg:w-6/12">
+            <div
+              class="monkey-img pt-[105px] max-2xl:pt-[50px] mb-[149px] max-2xl:mb-[30px]"
+            >
+              <img src="/src/image/study girl img.png" alt="girlPic" />
             </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <script>
-        const nav = document.getElementById("mobile_navbar")
-        const toggleButton = document.getElementById("toggle_button")
-        const toggleButtonShowNav = document.querySelector("#toggle_button .show_nav")
-        const toggleButtonCloseNav = document.querySelector("#toggle_button .close_nav")
-        toggleButton.addEventListener("click",
-            function () {
-                nav.classList.toggle("max-xl:translate-x-full")
-                toggleButtonShowNav.classList.toggle("opacity-0")
-                toggleButtonCloseNav.classList.toggle("opacity-0")
-                console.log("nav")
-            }
-        )
-    </script>
-</body>
+                           <!-- section-2 -->
 
+    <section class=" items-center justify-center relative poppins">
+      <div class="container w-4/5 mx-auto">
+        <div
+          class="flex flex-col items-center justify-center relative pt-[120px]">
+          <div class="bg-white px-3 py-3 z-10 text-orange text-md font-md">
+            Our Services
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="font-xl text-doubleXl flex justify-center">What We Do</div>
+        <div class="flex flex-wrap ">
+        <div class="w-full sm:w-12/12 md:w-6/12 lg:w-4/12">
+        <div class="box max-w-[380px] pr-5 pb-5 pt-[30px] pl-[25px] border rounded-[10px] my-[15px] max-2xl:mx-[15px]">
+            <div class="flex items-center justify-between">
+            <div class="img">
+            <img src="./src/image/ux-interface.png" alt="frontend">
+            </div>
+            <div class=" font-xl text-fourXl text-lightGrey">
+                01
+            </div>
+            </div>
+            <div class="font-xl text-xl pt-4">
+                UX Design
+            </div>
+            <p class="text-sm font-sm text-grey pt-2">Mobile App, Website</p>
+            <p class="text-md font-md text-grey pt-[15px] max-w-[325px] ">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.</p>
+        </div>
+        </div>
+           <div class="w-full sm:w-12/12 md:w-6/12 lg:w-4/12">
+        <div class="box max-w-[380px] pr-5 pb-5 pt-[30px] pl-[25px] border rounded-[10px] my-[15px] max-2xl:mx-[15px]">
+            <div class="flex items-center justify-between">
+            <div class="img">
+            <img src="./src/image/gaming.png" alt="frontend">
+            </div>
+            <div class=" font-xl text-fourXl text-lightGrey">
+                02
+            </div>
+            </div>
+            <div class="font-xl text-xl pt-4">
+               Game Design
+            </div>
+            <p class="text-sm font-sm text-grey pt-2">Mobile App, Website</p>
+            <p class="text-md font-md text-grey pt-[15px] max-w-[325px] ">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.</p>
+        </div>
+        </div>
+           <div class="w-full sm:w-12/12 md:w-6/12 lg:w-4/12">
+        <div class="box max-w-[380px] pr-5 pb-5 pt-[30px] pl-[25px] border rounded-[10px] my-[15px] max-2xl:mx-[15px]">
+            <div class="flex items-center justify-between">
+            <div class="img">
+            <img src="./src/image/design.png" alt="frontend">
+            </div>
+            <div class=" font-xl text-fourXl text-lightGrey">
+                03
+            </div>
+            </div>
+            <div class="font-xl text-xl pt-4">
+                Graphic Design
+            </div>
+            <p class="text-sm font-sm text-grey pt-2">Mobile App, Website</p>
+            <p class="text-md font-md text-grey pt-[15px] max-w-[325px] ">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.</p>
+        </div>
+        </div>
+       </div>
+        <div class="flex flex-wrap pb-[120px] max-2xl:pb-[30px] ">
+        <div class="w-full sm:w-12/12 md:w-6/12 lg:w-4/12">
+        <div class="box max-w-[380px] pr-5 pb-5 pt-[30px] pl-[25px] border rounded-[10px] my-[15px] max-2xl:mx-[15px]">
+            <div class="flex items-center justify-between">
+            <div class="img">
+            <img src="./src/image/web-design.png" alt="frontend">
+            </div>
+            <div class=" font-xl text-fourXl text-lightGrey">
+                04
+            </div>
+            </div>
+            <div class="font-xl text-xl pt-4">
+               Web Design
+            </div>
+            <p class="text-sm font-sm text-grey pt-2">Mobile App, Website</p>
+            <p class="text-md font-md text-grey pt-[15px] max-w-[325px] ">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.</p>
+        </div>
+        </div>
+           <div class="w-full sm:w-12/12 md:w-6/12 lg:w-4/12">
+        <div class="box max-w-[380px] pr-5 pb-5 pt-[30px] pl-[25px] border rounded-[10px] my-[15px] max-2xl:mx-[15px]">
+            <div class="flex items-center justify-between">
+            <div class="img">
+            <img src="./src/image/mobile-development.png" alt="frontend">
+            </div>
+            <div class=" font-xl text-fourXl text-lightGrey">
+                05
+            </div>
+            </div>
+            <div class="font-xl text-xl pt-4">
+              App Development
+            </div>
+            <p class="text-sm font-sm text-grey pt-2">Mobile App, Website</p>
+            <p class="text-md font-md text-grey pt-[15px] max-w-[325px] ">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.</p>
+        </div>
+        </div>
+           <div class="w-full sm:w-12/12 md:w-6/12 lg:w-4/12">
+        <div class="box max-w-[380px] pr-5 pb-5 pt-[30px] pl-[25px] border rounded-[10px] my-[15px] max-2xl:mx-[15px]">
+            <div class="flex items-center justify-between">
+            <div class="img">
+            <img src="./src/image/digital-marketing.png" alt="frontend">
+            </div>
+            <div class=" font-xl text-fourXl text-lightGrey">
+                06
+            </div>
+            </div>
+            <div class="font-xl text-xl pt-4">
+                Digital Marketing
+            </div>
+            <p class="text-sm font-sm text-grey pt-2">Mobile App, Website</p>
+            <p class="text-md font-md text-grey pt-[15px] max-w-[325px] ">Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.</p>
+        </div>
+        </div>
+       </div>
+      </div>
+    </section>
+  <section class=" items-center justify-center relative poppins bg-lightOrange">
+      <div class="container w-4/5 mx-auto">
+        <div class="flex flex-wrap">
+        <div class="w-6/12">
+            <div class="flex relative">
+            <div class=" text-md font-md bg-lightOrange py-3 px-2 z-10 text-orange pt-[120px] max-2xl:pt-[0px]">About Us</div>
+            <div class="line-2"></div>
+            </div>
+            <div class=" font-xl text-doubleXl max-w-[500px]">
+                Grow Your Business With
+              Our Agency
+            </div>
+            <p class="text-md font-md text-grey max-w-[544px] py-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis arcu in tincidunt sed imperdiet etiam fames. Tincidunt augue risus mattis eget sem habitant id ultrices augue. Sit rhoncus .
+            </p>
+            </div>
+        </div>
+        </div>
+        </section>
+    <script>
+      const nav = document.getElementById("mobile_navbar");
+      const toggleButton = document.getElementById("toggle_button");
+      const toggleButtonShowNav = document.querySelector(
+        "#toggle_button .show_nav"
+      );
+      const toggleButtonCloseNav = document.querySelector(
+        "#toggle_button .close_nav"
+      );
+      toggleButton.addEventListener("click", function () {
+        nav.classList.toggle("max-xl:translate-x-full");
+        toggleButtonShowNav.classList.toggle("opacity-0");
+        toggleButtonCloseNav.classList.toggle("opacity-0");
+        console.log("nav");
+      });
+    </script>
+  </body>
 </html>

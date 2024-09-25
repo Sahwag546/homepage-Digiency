@@ -9,7 +9,8 @@ module.exports = {
         lg: "20px",
         xl: "25px",
         doubleXl: "39.6px",
-        threeXl:"48.83px",
+        threeXl: "48.83px",
+        fourXl:"64px",
       },
       fontWeight: {
         sm: "300",
@@ -22,7 +23,8 @@ module.exports = {
         orange: " #FF5300",
         lightBlack: "#373737",
         lightOrange: "#FFF7F4",
-        grey:"#7B7B7B",
+        grey: "#7B7B7B",
+        lightGrey:"#EFEFEF",
       }
     },
   },
