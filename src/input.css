@@ -44,6 +44,14 @@
                   footer{
                     min-height: 50vh;
                   }
+                  .line-5:after{
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 60%;
+                    right:0;
+                    background:white;
+                  }
   /*========= slider button =======*/
   .circle {
       margin-top: 20px;
@@ -74,4 +82,9 @@
       path {
           fill: white;
       }
+  }
+  @media (max-width:1021px) {
+    .line-5::after{
+      display: none;
+    }
   }

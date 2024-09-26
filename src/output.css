@@ -698,10 +698,6 @@ video {
   margin-top: 65px;
 }
 
-.mt-\[\] {
-  margin-top: ;
-}
-
 .mt-\[75px\] {
   margin-top: 75px;
 }
@@ -729,26 +725,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-4\/12 {
-  width: 33.333333%;
-}
-
-.w-5\/12 {
-  width: 41.666667%;
-}
-
-.w-3\/12 {
-  width: 25%;
-}
-
-.w-2\/12 {
-  width: 16.666667%;
-}
-
-.w-1\/12 {
-  width: 8.333333%;
 }
 
 .max-w-\[320px\] {
@@ -811,16 +787,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-7 {
-  gap: 1.75rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .gap-x-4 {
@@ -989,12 +961,20 @@ video {
   padding-bottom: 51px;
 }
 
+.pb-\[69px\] {
+  padding-bottom: 69px;
+}
+
 .pb-\[90px\] {
   padding-bottom: 90px;
 }
 
 .pl-\[15px\] {
   padding-left: 15px;
+}
+
+.pl-\[18px\] {
+  padding-left: 18px;
 }
 
 .pl-\[25px\] {
@@ -1019,10 +999,6 @@ video {
 
 .pr-\[33px\] {
   padding-right: 33px;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
 }
 
 .pt-2 {
@@ -1081,6 +1057,10 @@ video {
   padding-top: 20px;
 }
 
+.pt-\[2px\] {
+  padding-top: 2px;
+}
+
 .pt-\[30px\] {
   padding-top: 30px;
 }
@@ -1089,12 +1069,8 @@ video {
   padding-top: 65px;
 }
 
-.pt-\[2px\] {
-  padding-top: 2px;
-}
-
-.pl-\[18px\] {
-  padding-left: 18px;
+.pt-\[69px\] {
+  padding-top: 69px;
 }
 
 .text-\[10px\] {
@@ -1266,6 +1242,15 @@ footer{
   min-height: 50vh;
 }
 
+.line-5:after{
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 60%;
+  right:0;
+  background:white;
+}
+
 /*========= slider button =======*/
 
 .circle {
@@ -1295,6 +1280,12 @@ footer{
   transition: all 400ms;
   path {
     fill: white;
+  }
+}
+
+@media (max-width:1021px) {
+  .line-5::after{
+    display: none;
   }
 }
 
@@ -1396,6 +1387,18 @@ footer{
   }
 }
 
+@media not all and (min-width: 1024px) {
+  .max-lg\:border-0 {
+    border-width: 0px;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:border {
+    border-width: 1px;
+  }
+}
+
 @media not all and (min-width: 640px) {
   .max-sm\:flex {
     display: flex;
@@ -1421,24 +1424,20 @@ footer{
 }
 
 @media (min-width: 768px) {
-  .md\:w-4\/12 {
-    width: 33.333333%;
-  }
-
-  .md\:w-6\/12 {
-    width: 50%;
-  }
-
-  .md\:w-2 {
-    width: 0.5rem;
-  }
-
   .md\:w-2\/12 {
     width: 16.666667%;
   }
 
+  .md\:w-4\/12 {
+    width: 33.333333%;
+  }
+
   .md\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
   }
 }
 
