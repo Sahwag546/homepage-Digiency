@@ -569,13 +569,13 @@
           </div>
         </div>
         <div class="d-flex align-items-center">
-               <button class="circle circle-4 prev border-2 border-black hover:bg-orange hover:border-orange">
+               <button class="circle circle-4 prev border-2 border-black hover:bg-white hover:border-orange-500 hover:border-2">
            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.5352 15.0001L19.7227 21.1876L17.9552 22.9551L10.0002 15.0001L17.9552 7.04508L19.7227 8.81258L13.5352 15.0001Z" fill="#373737"/>
 </svg>
 
           </button>
-          <button class="circle me-3 circle-3 next border-2 border-black hover:bg-orange hover:border-orange">
+          <button class="circle me-3 circle-3 next border-2 border-black hover:bg-white hover:border-orange-500 hover:border-2">
            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_6231_4202)">
 <path d="M16.4648 14.9999L10.2773 8.81242L12.0448 7.04492L19.9998 14.9999L12.0448 22.9549L10.2773 21.1874L16.4648 14.9999Z" fill="black"/>
@@ -907,11 +907,11 @@
             </div>  
           </div>
           <div class="w-full lg:w-8/12">
-            <div class="flex border bg-white max-w-[715px] py-[5px] mt-[65px] mx-[40px] rounded-[5px] justify-between">
+            <div class="flex border bg-white max-w-[715px] py-[5px] mt-[65px] mx-[40px] max-sm:mx-[10px] rounded-[5px] justify-between max-sm:flex-col">
               <div class="input-box">
-              <input type="text" placeholder="Enter your email" class="text-md font-md text grey py-[23px] pl-[25px]  outline-0">
+              <input type="text" placeholder="Enter your email" class="text-md font-md text  grey py-[23px] pl-[25px] outline-0">
               </div>
-             <button class="text-lg font-lg py-[15px] pl-[39px] pr-[33px] mr-[5px] bg-orange rounded-[5px] text-white hover:bg-black">
+             <button class="text-lg font-lg py-[15px] pl-[39px] pr-[33px] mr-[5px] ml-[5px] bg-orange rounded-[5px] text-white hover:bg-black">
               Subscribe Now
             </button>
             </div>
@@ -948,7 +948,7 @@
         <div class="text-orange text-xl font-xl">
         Follow  Us
           </div>
-          <div class="flex pt-[30px]">
+          <div class="flex pt-[30px]  ">
          <div class="px-[23px] py-[23px] rounded-full bg-white mr-[10px] box">
           <a href="#">
  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1100,62 +1100,21 @@
 
             responsive: [
                 {
-                    breakpoint: 1300,
-                    settings: {
-                        slidesToShow: 6,
-                        slidesToScroll: 2
-                    }
-                },
-
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 5,
-                        slidesToScroll: 2
-                    }
-                },
-                {
                     breakpoint: 992,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 2,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 786,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1
-                    }
-                },
-                  {
-                    breakpoint: 640,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                 {
-                    breakpoint: 440,
-                    settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
                 },
-                {
-                    breakpoint: 390,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
+            
+            
             ]
 
         });

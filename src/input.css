@@ -67,14 +67,14 @@
 
   .circle-3 {
       position: absolute;
-      right: -80px;
+      right: -60px;
       top: 45%;
       margin-top: 80px;
   }
 
   .circle-4 {
       position: absolute;
-      left: -80px;
+      left: -50px;
       top: 45%;
       margin-top: 80px;
   }
@@ -85,7 +85,7 @@
       transition: all 400ms;
 
       path {
-          fill: white;
+          fill: orangered;
       }
   }
   @media (max-width:1021px) {
