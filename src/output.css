@@ -1251,6 +1251,10 @@ footer{
   background:white;
 }
 
+.box:hover svg path{
+  fill:#F53838;
+}
+
 /*========= slider button =======*/
 
 .circle {

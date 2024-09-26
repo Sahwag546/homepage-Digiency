@@ -52,6 +52,9 @@
                     right:0;
                     background:white;
                   }
+                  .box:hover svg path{
+                    fill:#F53838;
+                  }
   /*========= slider button =======*/
   .circle {
       margin-top: 20px;
